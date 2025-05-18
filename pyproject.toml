@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "max-algos"
+version = "1"
+description = "Trading Algos"
+authors = ["P Anand <panand363@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.10"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
